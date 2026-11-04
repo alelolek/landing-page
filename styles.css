@@ -48,6 +48,9 @@ h2 { font-size: clamp(2rem, 4vw, 3rem); }
 h3 { font-size: 1.12rem; }
 p { margin: 0 0 1rem; }
 .hero-lead { color: var(--coral); font-size: 1.35rem; font-weight: 600; }
+.project-badge { display: inline-flex; flex-wrap: wrap; align-items: center; gap: .65rem 1rem; margin: .25rem 0 1.25rem; padding: .7rem 1rem; color: var(--navy); background: var(--mint); border-left: 4px solid var(--coral); border-radius: 8px; box-shadow: 0 8px 18px rgba(10,61,98,.08); }
+.project-badge strong { color: var(--coral); font-size: 1.05rem; letter-spacing: .08em; }
+.project-badge span { font-size: .86rem; font-weight: 700; }
 .hero-text { max-width: 650px; color: var(--muted); font-size: 1.05rem; }
 .hero-meta { display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; margin: 1.5rem 0 2rem; color: var(--blue); font-size: .82rem; font-weight: 600; }
 .hero-meta span::before { content: "•"; margin-right: .5rem; color: var(--coral); }
