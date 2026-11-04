@@ -58,6 +58,7 @@
           <a class="button button-primary" href="#texto-expositivo">Explorar el contenido <span aria-hidden="true">→</span></a>
         </div>
         <div class="hero-visual">
+          <img class="hero-exposition" src="assets/foto-exposicion.jpeg" alt="Exposición académica del grupo sobre diabetes tipo II">
           <div class="hero-orbit orbit-one"></div>
           <div class="hero-orbit orbit-two"></div>
           <div class="medical-card">
@@ -247,29 +248,19 @@
     <section class="section section-light" id="video-panel" aria-labelledby="video-title">
       <div class="container split-layout video-layout">
         <div>
-          <img class="panel-photo" src="assets/foto-exposicion.jpeg" alt="Exposición académica del equipo sobre diabetes tipo II">
+          <div class="video-player panel-video-player">
+            <video controls preload="metadata">
+              <source src="assets/video-panel.mp4" type="video/mp4">
+              Tu navegador no admite la reproducción de video HTML5.
+            </video>
+            <a class="button button-primary" href="assets/video-panel.mp4" download>Descargar video del panel <span aria-hidden="true">↓</span></a>
+          </div>
         </div>
         <div>
           <p class="eyebrow">Intercambio de saberes</p>
-          <h2 id="video-title">Video del Panel Académico</h2>
+          <h2 id="video-title">Grabación del Panel Académico</h2>
           <p>En esta evidencia se presenta la exposición del equipo sobre los fundamentos de la diabetes tipo II, las alternativas farmacológicas y la relevancia de la adherencia para el control metabólico.</p>
-          <a class="text-link" href="#video-panel-grabacion">Ver grabación del panel <span aria-hidden="true">→</span></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-light" id="video-panel-grabacion" aria-labelledby="panel-video-title">
-      <div class="container">
-        <div class="section-heading centered">
-          <p class="eyebrow">Registro audiovisual</p>
-          <h2 id="panel-video-title">Grabación del Panel Académico</h2>
-        </div>
-        <div class="video-player">
-          <video controls preload="none" poster="assets/preview-video-examen.png">
-            <source src="assets/video-panel.mp4" type="video/mp4">
-            Tu navegador no admite la reproducción de video HTML5.
-          </video>
-          <a class="button button-primary" href="assets/video-panel.mp4" download>Descargar video del panel <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#video-panel">Ver grabación del panel <span aria-hidden="true">→</span></a>
         </div>
       </div>
     </section>
@@ -297,7 +288,7 @@
           <p>Registro audiovisual de la presentación académica del equipo.</p>
         </div>
         <div class="video-player">
-          <video controls preload="metadata" poster="assets/foto-exposicion.jpeg">
+          <video controls preload="none" poster="assets/preview-video-examen.png">
             <source src="assets/video-examen-parcial-ii.mp4" type="video/mp4">
             Tu navegador no admite la reproducción de video HTML5.
           </video>
