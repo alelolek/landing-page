@@ -101,7 +101,9 @@ code { padding: .15rem .3rem; color: var(--navy); background: rgba(10,61,98,.08)
 .document-card p { margin: .2rem 0 0; color: var(--muted); font-size: .8rem; }
 .document-status { margin-left: auto; color: var(--coral); font-size: .72rem; font-weight: 700; }
 .matrix-preview { display: grid; gap: 1rem; }
-.matrix-preview iframe { width: 100%; height: 430px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--white); }
+.matrix-image-preview { margin: 0; padding: .75rem; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 8px 24px rgba(10,61,98,.06); }
+.matrix-image-preview img { width: 100%; height: auto; border-radius: 10px; }
+.matrix-image-preview figcaption { padding: .65rem .25rem .1rem; color: var(--muted); font-size: .78rem; text-align: center; }
 .matrix-fallback { padding: 1rem; color: var(--muted); background: var(--white); border: 1px solid var(--line); border-radius: 10px; font-size: .86rem; }
 .matrix-fallback summary { color: var(--navy); cursor: pointer; font-weight: 700; }
 .matrix-fallback p { margin: .75rem 0 0; }
